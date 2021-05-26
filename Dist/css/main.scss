@@ -1,3 +1,14 @@
+/*---media Queries --*/
+
+@media (max-width: 992px) {}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 576px) {}
+
+
+/*--- Fonts --*/
+
 @font-face {
     src: url(fonts/Lato-Regular.ttf);
     font-family: Lato-Regular;
@@ -22,3 +33,33 @@ $LightSeaGreen: #0FBBAD;
 $PrussianBlue: #003366;
 $Cultured: #F3F3F3;
 $OrangeCrayola: #F2742E;
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url(/Dist/Img/Forside.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    width: 80%;
+}
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootsrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) {...}
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) {...}
+
+Large (lg) devices (dektops 992px and up)
+@media (min-width: 992px) {...}
+
+Extra (xl) large devices (large desktops 1200æx and up)
+@media (min-width: 1200pxpx) {...}
+*/
