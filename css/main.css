@@ -24,14 +24,34 @@
 .masthead {
   height: 100vh;
   min-height: 500px;
-  background-image: url(/Dist/Img/Forside.jpg);
+  background-image: url(../Img/Forside.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  position: relative;
 }
 
-.navbar {
-  width: 80%;
+.layer {
+  background-color: black;
+  position: absolute;
+  opacity: 33%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.Welcome {
+  color: white;
+}
+
+.Name {
+  color: white;
+}
+
+.nav-top {
+  background-color: #0FBBAD;
+  min-height: 40px;
 }
 
 /*
