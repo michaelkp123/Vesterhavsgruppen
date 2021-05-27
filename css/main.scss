@@ -33,37 +33,100 @@ $LightSeaGreen: #0FBBAD;
 $PrussianBlue: #003366;
 $Cultured: #F3F3F3;
 $OrangeCrayola: #F2742E;
-.masthead {
+.hero {
+    position: relative;
     height: 100vh;
-    min-height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-image: url(../Img/Forside.jpg);
     background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
 }
 
-.layer {
-    background-color: black;
+.hero::before {
+    content: "";
     position: absolute;
-    opacity: 33%;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.25);
+    opacity: 66%;
 }
 
-.Welcome {
-    color: white;
+h1 {
+    position: relative;
+    color: #ffffff;
+    font-size: 100px;
+    line-height: 0.9;
+    text-align: center;
 }
 
-.Name {
+h2 {
+    position: relative;
+    color: #ffffff;
+    font-size: 80px;
+    line-height: 0.9;
+    text-align: center;
+}
+
+.btn {
+    position: relative;
     color: white;
+    font-size: 20px;
+    align-items: center;
 }
 
 .nav-top {
     background-color: $LightSeaGreen;
     min-height: 40px;
+}
+
+.scroll {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Nunito-Regular;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .container {
+    margin: 100px;
+}
+
+section h1 {
+    font-size: 60px;
+    color: black;
+}
+
+section h2 {
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+}
+
+.reveal {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+
+.reveal.active {
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+.spon {
+    font-size: 30px;
+    color: black;
 }
 
 
