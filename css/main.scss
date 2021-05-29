@@ -1,88 +1,7 @@
-/*---media Queries --*/
-
-@media (max-width: 992px) {}
-
-@media (max-width: 768px) {}
-
-@media (max-width: 576px) {}
-
-
-/*--- Fonts --*/
-
-@font-face {
-    src: url(fonts/Lato-Regular.ttf);
-    font-family: Lato-Regular;
-}
-
-@font-face {
-    src: url(fonts/Lato-Bold.ttf);
-    font-family: Lato-Bold;
-}
-
-@font-face {
-    src: url(fonts/NunitoSans-Regular.ttf);
-    font-family: Nunito-Regular;
-}
-
-@font-face {
-    src: url(fonts/NunitoSans-Bold.ttf);
-    font-family: Nunito-Bold;
-}
-
-$LightSeaGreen: #0FBBAD;
-$PrussianBlue: #003366;
-$Cultured: #F3F3F3;
-$OrangeCrayola: #F2742E;
-.hero {
-    position: relative;
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-image: url(../Img/Forside.jpg);
-    background-size: cover;
-}
-
-.hero::before {
-    content: "";
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    background-color: rgba(0, 0, 0, 0.25);
-    opacity: 66%;
-}
-
-h1 {
-    position: relative;
-    color: #ffffff;
-    font-size: 100px;
-    line-height: 0.9;
-    text-align: center;
-}
-
-h2 {
-    position: relative;
-    color: #ffffff;
-    font-size: 80px;
-    line-height: 0.9;
-    text-align: center;
-}
-
-.btn {
-    position: relative;
-    color: white;
-    font-size: 20px;
-    align-items: center;
-}
-
-.nav-top {
-    background-color: $LightSeaGreen;
-    min-height: 40px;
-}
-
+@import './TopPic.scss';
+@import './foter.scss';
+@import './Variables.scss';
+@import './Navtop.scss';
 .scroll {
     margin: 0;
     padding: 0;
@@ -124,9 +43,9 @@ section h2 {
     opacity: 1;
 }
 
-.spon {
-    font-size: 30px;
-    color: black;
+.nav-top {
+    background-color: $LightSeaGreen;
+    min-height: 40px;
 }
 
 

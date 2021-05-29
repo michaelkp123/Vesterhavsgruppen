@@ -1,0 +1,22 @@
+/*---media Queries --*/
+/*--- Fonts --*/
+@font-face {
+  src: url(fonts/Lato-Regular.ttf);
+  font-family: Lato-Regular;
+}
+
+@font-face {
+  src: url(fonts/Lato-Bold.ttf);
+  font-family: Lato-Bold;
+}
+
+@font-face {
+  src: url(fonts/NunitoSans-Regular.ttf);
+  font-family: Nunito-Regular;
+}
+
+@font-face {
+  src: url(fonts/NunitoSans-Bold.ttf);
+  font-family: Nunito-Bold;
+}
+/*# sourceMappingURL=Variables.css.map */
