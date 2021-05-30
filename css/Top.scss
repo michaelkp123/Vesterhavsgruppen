@@ -1,18 +1,17 @@
-.grid {
-    display: grid;
-}
-
-.item>img {
-    width: 100%;
-    height: auto;
-    display: block;
-}
-
-.label {
-    font-size: 100px;
-    margin: 0;
-    height: 10rem;
-    margin-top: -10rem;
+.image {
+    position: relative;
     text-align: center;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
     color: white;
+}
+
+.size {
+    width: 100vw;
 }

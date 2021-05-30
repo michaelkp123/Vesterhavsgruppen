@@ -1,22 +1,19 @@
-.grid {
-    display: -ms-grid;
-    display: grid;
+.image {
+  position: relative;
+  text-align: center;
 }
 
-.item>img {
-    width: 100%;
-    height: auto;
-    display: block;
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 100px;
+  color: white;
 }
 
-.label {
-    font-size: 100px;
-    margin: 0;
-    height: 10rem;
-    margin-top: -10rem;
-    text-align: center;
-    color: white;
+.size {
+  width: 100vw;
 }
-
-
 /*# sourceMappingURL=Top.css.map */

@@ -2,6 +2,10 @@
 @import './foter.scss';
 @import './Variables.scss';
 @import './Navtop.scss';
+body {
+    overflow-x: hidden;
+}
+
 section {
     display: flex;
     justify-content: center;
