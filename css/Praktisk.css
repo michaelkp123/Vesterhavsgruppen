@@ -1,0 +1,70 @@
+.image {
+  position: relative;
+  text-align: center;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 100px;
+  color: white;
+}
+
+.size {
+  width: 100vw;
+}
+
+.spon {
+  font-size: 20px;
+  color: black;
+  font-family: Lato-Regular;
+}
+
+/*---media Queries --*/
+/*--- Fonts --*/
+@font-face {
+  src: url(fonts/Lato-Regular.ttf);
+  font-family: Lato-Regular;
+}
+
+@font-face {
+  src: url(fonts/Lato-Bold.ttf);
+  font-family: Lato-Bold;
+}
+
+@font-face {
+  src: url(fonts/NunitoSans-Regular.ttf);
+  font-family: Nunito-Regular;
+}
+
+@font-face {
+  src: url(fonts/NunitoSans-Bold.ttf);
+  font-family: Nunito-Bold;
+}
+
+.nav-top {
+  background-color: #0FBBAD;
+  min-height: 40px;
+}
+
+.Headline {
+  font-family: Lato-Bold;
+  color: #003366;
+  font-size: 35px;
+}
+
+.Bread {
+  font-family: Nunito-Regular;
+  color: black;
+  font-size: 20px;
+}
+
+h1 {
+  font-family: Lato-Bold;
+  color: #003366;
+  font-size: 45px;
+}
+/*# sourceMappingURL=Praktisk.css.map */
