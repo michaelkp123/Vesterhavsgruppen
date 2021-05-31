@@ -44,6 +44,33 @@
   min-height: 40px;
 }
 
+/*---media Queries --*/
+/*--- Fonts --*/
+@font-face {
+  src: url(fonts/Lato-Regular.ttf);
+  font-family: Lato-Regular;
+}
+
+@font-face {
+  src: url(fonts/Lato-Bold.ttf);
+  font-family: Lato-Bold;
+}
+
+@font-face {
+  src: url(fonts/NunitoSans-Regular.ttf);
+  font-family: Nunito-Regular;
+}
+
+@font-face {
+  src: url(fonts/NunitoSans-Bold.ttf);
+  font-family: Nunito-Bold;
+}
+
+.nav-item {
+  font-size: 20px;
+  font-family: Lato-Bold;
+}
+
 body {
   overflow-x: hidden;
 }

@@ -7,11 +7,11 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   background-image: url(../Img/Forside.jpg);
   background-size: cover;
 }
@@ -48,8 +48,8 @@ h2 {
   color: white;
   font-size: 20px;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .spon {
@@ -83,6 +83,33 @@ h2 {
 .nav-top {
   background-color: #0FBBAD;
   min-height: 40px;
+}
+
+/*---media Queries --*/
+/*--- Fonts --*/
+@font-face {
+  src: url(fonts/Lato-Regular.ttf);
+  font-family: Lato-Regular;
+}
+
+@font-face {
+  src: url(fonts/Lato-Bold.ttf);
+  font-family: Lato-Bold;
+}
+
+@font-face {
+  src: url(fonts/NunitoSans-Regular.ttf);
+  font-family: Nunito-Regular;
+}
+
+@font-face {
+  src: url(fonts/NunitoSans-Bold.ttf);
+  font-family: Nunito-Bold;
+}
+
+.nav-item {
+  font-size: 20px;
+  font-family: Lato-Bold;
 }
 
 .scroll {
