@@ -52,6 +52,14 @@
   font-family: Lato-Bold;
 }
 
+.fas {
+  size: 1px;
+}
+
+.navbar {
+  background-color: #F3F3F3;
+}
+
 @media (max-width: 575px) {
   .display-4 {
     font-size: 1.5rem;
@@ -74,5 +82,13 @@
 
 #inlineCheckbox1 {
   color: blue;
+}
+
+h4 {
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #003366;
+  font-family: Lato-Bold;
 }
 /*# sourceMappingURL=Kalender.css.map */

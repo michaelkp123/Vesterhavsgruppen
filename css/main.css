@@ -58,6 +58,10 @@ h2 {
   font-family: Lato-Regular;
 }
 
+.bg-light {
+  background-color: #f3f3f3;
+}
+
 /*---media Queries --*/
 /*--- Fonts --*/
 @font-face {
@@ -112,6 +116,14 @@ h2 {
   font-family: Lato-Bold;
 }
 
+.fas {
+  size: 1px;
+}
+
+.navbar {
+  background-color: #F3F3F3;
+}
+
 .scroll {
   margin: 0;
   padding: 0;
@@ -145,7 +157,8 @@ section h2 {
   font-size: 40px;
   text-align: center;
   text-transform: uppercase;
-  color: black;
+  color: #003366;
+  font-family: Lato-Bold;
 }
 
 .reveal {
@@ -166,6 +179,14 @@ section h2 {
 .nav-top {
   background-color: #0FBBAD;
   min-height: 40px;
+}
+
+.kort {
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #003366;
+  font-family: Lato-Bold;
 }
 
 /*

@@ -51,4 +51,12 @@ main {
 .panel {
   border-color: #ddd;
 }
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #003366;
+  font-family: Lato-Bold;
+}
 /*# sourceMappingURL=BlivSpejder.css.map */

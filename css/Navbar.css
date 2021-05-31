@@ -24,4 +24,12 @@
   font-size: 20px;
   font-family: Lato-Bold;
 }
+
+.fas {
+  size: 1px;
+}
+
+.navbar {
+  background-color: #F3F3F3;
+}
 /*# sourceMappingURL=Navbar.css.map */
