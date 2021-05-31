@@ -1,0 +1,54 @@
+/*---media Queries --*/
+/*--- Fonts --*/
+@font-face {
+  src: url(fonts/Lato-Regular.ttf);
+  font-family: Lato-Regular;
+}
+
+@font-face {
+  src: url(fonts/Lato-Bold.ttf);
+  font-family: Lato-Bold;
+}
+
+@font-face {
+  src: url(fonts/NunitoSans-Regular.ttf);
+  font-family: Nunito-Regular;
+}
+
+@font-face {
+  src: url(fonts/NunitoSans-Bold.ttf);
+  font-family: Nunito-Bold;
+}
+
+main {
+  font-family: Nunito-Regular;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.73;
+  color: #4a4a4a;
+}
+
+.panel-default {
+  color: #333;
+}
+
+.panel-heading {
+  padding: 10px 15px;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.small {
+  font-size: 85%;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.panel {
+  border-color: #ddd;
+}
+/*# sourceMappingURL=BlivSpejder.css.map */
