@@ -29,6 +29,7 @@ section h2 {
     text-transform: uppercase;
     color: $PrussianBlue;
     font-family: Lato-Bold;
+    padding-bottom: 20px;
 }
 
 #video {
@@ -40,8 +41,15 @@ h1 {
     text-align: center;
     color: $PrussianBlue;
     font-family: Lato-Bold;
+    padding-bottom: 10px;
+    padding-top: 40px;
 }
 
 p {
     font-family: Nunito-Regular;
+}
+
+.Infografik {
+    width: 500px;
+    margin: 0 auto;
 }

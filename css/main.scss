@@ -1,7 +1,6 @@
 @import './Top.scss';
 @import './foter.scss';
 @import './Variables.scss';
-@import './Navtop.scss';
 @import "./Navbar.scss";
 @import "./TopPic.scss";
 body {
@@ -30,12 +29,13 @@ section h1 {
     color: black;
 }
 
-section h2 {
+.udtalelser {
     font-size: 40px;
     text-align: center;
     text-transform: uppercase;
     color: $PrussianBlue;
     font-family: Lato-Bold;
+    padding-top: 50px;
 }
 
 .reveal {
@@ -52,7 +52,7 @@ section h2 {
 
 .nav-top {
     background-color: $LightSeaGreen;
-    min-height: 40px;
+    min-height: 20px;
 }
 
 .kort {
@@ -64,8 +64,10 @@ section h2 {
 }
 
 .overskrift {
-    padding-bottom: 50px;
+    font-size: 40px;
     font-family: Lato-Regular;
+    color: $PrussianBlue;
+    padding-bottom: 20px;
 }
 
 .A {
@@ -94,6 +96,30 @@ section h2 {
 
 p {
     font-family: Nunito-Regular;
+}
+
+.maps {
+    width: 600px;
+    margin: 0 auto;
+}
+
+iframe {
+    padding-bottom: 50px;
+}
+
+.text {
+    margin-bottom: 20px;
+}
+
+.image {
+    margin-bottom: 20px;
+}
+
+.ok {
+    font-size: 35px;
+    font-family: Lato-Regular;
+    text-align: left;
+    color: $PrussianBlue;
 }
 
 

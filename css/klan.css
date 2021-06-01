@@ -1,22 +1,22 @@
 /*---media Queries --*/
 /*--- Fonts --*/
 @font-face {
-  src: url(fonts/Lato-Regular.ttf);
+  src: url(../Fonts/Lato-Regular.ttf);
   font-family: Lato-Regular;
 }
 
 @font-face {
-  src: url(fonts/Lato-Bold.ttf);
+  src: url(../Fonts/Lato-Bold.ttf);
   font-family: Lato-Bold;
 }
 
 @font-face {
-  src: url(fonts/NunitoSans-Regular.ttf);
+  src: url(../Fonts/NunitoSans-Regular.ttf);
   font-family: Nunito-Regular;
 }
 
 @font-face {
-  src: url(fonts/NunitoSans-Bold.ttf);
+  src: url(../Fonts/NunitoSans-Bold.ttf);
   font-family: Nunito-Bold;
 }
 
@@ -46,29 +46,29 @@
   font-family: Lato-Regular;
 }
 
-.bg-light {
-  background-color: #f3f3f3;
+.footer {
+  background-color: rgba(15, 187, 173, 0.3);
 }
 
 /*---media Queries --*/
 /*--- Fonts --*/
 @font-face {
-  src: url(fonts/Lato-Regular.ttf);
+  src: url(../Fonts/Lato-Regular.ttf);
   font-family: Lato-Regular;
 }
 
 @font-face {
-  src: url(fonts/Lato-Bold.ttf);
+  src: url(../Fonts/Lato-Bold.ttf);
   font-family: Lato-Bold;
 }
 
 @font-face {
-  src: url(fonts/NunitoSans-Regular.ttf);
+  src: url(../Fonts/NunitoSans-Regular.ttf);
   font-family: Nunito-Regular;
 }
 
 @font-face {
-  src: url(fonts/NunitoSans-Bold.ttf);
+  src: url(../Fonts/NunitoSans-Bold.ttf);
   font-family: Nunito-Bold;
 }
 
@@ -80,22 +80,22 @@
 /*---media Queries --*/
 /*--- Fonts --*/
 @font-face {
-  src: url(fonts/Lato-Regular.ttf);
+  src: url(../Fonts/Lato-Regular.ttf);
   font-family: Lato-Regular;
 }
 
 @font-face {
-  src: url(fonts/Lato-Bold.ttf);
+  src: url(../Fonts/Lato-Bold.ttf);
   font-family: Lato-Bold;
 }
 
 @font-face {
-  src: url(fonts/NunitoSans-Regular.ttf);
+  src: url(../Fonts/NunitoSans-Regular.ttf);
   font-family: Nunito-Regular;
 }
 
 @font-face {
-  src: url(fonts/NunitoSans-Bold.ttf);
+  src: url(../Fonts/NunitoSans-Bold.ttf);
   font-family: Nunito-Bold;
 }
 
