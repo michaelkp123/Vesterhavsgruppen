@@ -1,19 +1,47 @@
+/*---media Queries --*/
+
+
+/*--- Fonts --*/
+
+@font-face {
+    src: url(fonts/Lato-Regular.ttf);
+    font-family: Lato-Regular;
+}
+
+@font-face {
+    src: url(fonts/Lato-Bold.ttf);
+    font-family: Lato-Bold;
+}
+
+@font-face {
+    src: url(fonts/NunitoSans-Regular.ttf);
+    font-family: Nunito-Regular;
+}
+
+@font-face {
+    src: url(fonts/NunitoSans-Bold.ttf);
+    font-family: Nunito-Bold;
+}
+
 .image {
-  position: relative;
-  text-align: center;
+    position: relative;
+    text-align: center;
 }
 
 .centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  font-size: 100px;
-  color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    color: white;
+    font-family: Lato-Regular;
 }
 
 .size {
-  width: 100vw;
+    width: 100vw;
 }
+
+
 /*# sourceMappingURL=Top.css.map */

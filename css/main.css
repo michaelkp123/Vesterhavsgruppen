@@ -1,193 +1,293 @@
 @charset "UTF-8";
-.hero {
-  position: relative;
-  height: 100vh;
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  background-image: url(../Img/Forside.jpg);
-  background-size: cover;
+
+/*---media Queries --*/
+
+
+/*--- Fonts --*/
+
+@font-face {
+    src: url(fonts/Lato-Regular.ttf);
+    font-family: Lato-Regular;
 }
 
-.hero::before {
-  content: "";
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  background-color: rgba(0, 0, 0, 0.25);
-  opacity: 66%;
+@font-face {
+    src: url(fonts/Lato-Bold.ttf);
+    font-family: Lato-Bold;
 }
 
-h1 {
-  position: relative;
-  color: #ffffff;
-  font-size: 100px;
-  line-height: 0.9;
-  text-align: center;
+@font-face {
+    src: url(fonts/NunitoSans-Regular.ttf);
+    font-family: Nunito-Regular;
 }
 
-h2 {
-  position: relative;
-  color: #ffffff;
-  font-size: 80px;
-  line-height: 0.9;
-  text-align: center;
+@font-face {
+    src: url(fonts/NunitoSans-Bold.ttf);
+    font-family: Nunito-Bold;
 }
 
-.btn {
-  position: relative;
-  color: white;
-  font-size: 20px;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+.image {
+    position: relative;
+    text-align: center;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    color: white;
+    font-family: Lato-Regular;
+}
+
+.size {
+    width: 100vw;
 }
 
 .spon {
-  font-size: 20px;
-  color: black;
-  font-family: Lato-Regular;
+    font-size: 20px;
+    color: black;
+    font-family: Lato-Regular;
 }
 
 .bg-light {
-  background-color: #f3f3f3;
+    background-color: #f3f3f3;
 }
+
 
 /*---media Queries --*/
+
+
 /*--- Fonts --*/
+
 @font-face {
-  src: url(fonts/Lato-Regular.ttf);
-  font-family: Lato-Regular;
+    src: url(fonts/Lato-Regular.ttf);
+    font-family: Lato-Regular;
 }
 
 @font-face {
-  src: url(fonts/Lato-Bold.ttf);
-  font-family: Lato-Bold;
+    src: url(fonts/Lato-Bold.ttf);
+    font-family: Lato-Bold;
 }
 
 @font-face {
-  src: url(fonts/NunitoSans-Regular.ttf);
-  font-family: Nunito-Regular;
+    src: url(fonts/NunitoSans-Regular.ttf);
+    font-family: Nunito-Regular;
 }
 
 @font-face {
-  src: url(fonts/NunitoSans-Bold.ttf);
-  font-family: Nunito-Bold;
+    src: url(fonts/NunitoSans-Bold.ttf);
+    font-family: Nunito-Bold;
 }
 
 .nav-top {
-  background-color: #0FBBAD;
-  min-height: 40px;
+    background-color: #0FBBAD;
+    min-height: 40px;
 }
+
 
 /*---media Queries --*/
+
+
 /*--- Fonts --*/
+
 @font-face {
-  src: url(fonts/Lato-Regular.ttf);
-  font-family: Lato-Regular;
+    src: url(fonts/Lato-Regular.ttf);
+    font-family: Lato-Regular;
 }
 
 @font-face {
-  src: url(fonts/Lato-Bold.ttf);
-  font-family: Lato-Bold;
+    src: url(fonts/Lato-Bold.ttf);
+    font-family: Lato-Bold;
 }
 
 @font-face {
-  src: url(fonts/NunitoSans-Regular.ttf);
-  font-family: Nunito-Regular;
+    src: url(fonts/NunitoSans-Regular.ttf);
+    font-family: Nunito-Regular;
 }
 
 @font-face {
-  src: url(fonts/NunitoSans-Bold.ttf);
-  font-family: Nunito-Bold;
+    src: url(fonts/NunitoSans-Bold.ttf);
+    font-family: Nunito-Bold;
 }
 
 .nav-item {
-  font-size: 20px;
-  font-family: Lato-Bold;
+    font-size: 20px;
+    font-family: Lato-Bold;
 }
 
 .fas {
-  size: 1px;
+    size: 1px;
 }
 
 .navbar {
-  background-color: #F3F3F3;
+    background-color: #F3F3F3;
+}
+
+.fab {
+    font-weight: 800;
+}
+
+.hero {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-image: url(../Img/Forside.png);
+    background-size: cover;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.25);
+    opacity: 66%;
+}
+
+h1 {
+    position: relative;
+    color: #ffffff;
+    font-size: 100px;
+    line-height: 0.9;
+    text-align: center;
+}
+
+h2 {
+    position: relative;
+    color: #ffffff;
+    font-size: 80px;
+    line-height: 0.9;
+    text-align: center;
+}
+
+.btn {
+    position: relative;
+    color: white;
+    font-size: 20px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.flyt {
+    padding: 30px;
+}
+
+body {
+    overflow-x: hidden;
 }
 
 .scroll {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  font-family: Nunito-Regular;
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: Nunito-Regular;
 }
 
 section {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 section .container {
-  margin: 100px;
+    margin: 100px;
 }
 
 section h1 {
-  font-size: 60px;
-  color: black;
+    font-size: 60px;
+    color: black;
 }
 
 section h2 {
-  font-size: 40px;
-  text-align: center;
-  text-transform: uppercase;
-  color: #003366;
-  font-family: Lato-Bold;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #003366;
+    font-family: Lato-Bold;
 }
 
 .reveal {
-  position: relative;
-  -webkit-transform: translateY(150px);
-          transform: translateY(150px);
-  opacity: 0;
-  -webkit-transition: all 2s ease;
-  transition: all 2s ease;
+    position: relative;
+    -webkit-transform: translateY(150px);
+    transform: translateY(150px);
+    opacity: 0;
+    -webkit-transition: all 2s ease;
+    transition: all 2s ease;
 }
 
 .reveal.active {
-  -webkit-transform: translateY(0px);
-          transform: translateY(0px);
-  opacity: 1;
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+    opacity: 1;
 }
 
 .nav-top {
-  background-color: #0FBBAD;
-  min-height: 40px;
+    background-color: #0FBBAD;
+    min-height: 40px;
 }
 
 .kort {
-  font-size: 40px;
-  text-align: center;
-  text-transform: uppercase;
-  color: #003366;
-  font-family: Lato-Bold;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #003366;
+    font-family: Lato-Bold;
 }
+
+.overskrift {
+    padding-bottom: 50px;
+    font-family: Lato-Regular;
+}
+
+.A {
+    position: absolute;
+    top: 70%;
+    left: 5%;
+    font-size: 20px;
+    font-family: Nunito-Regular;
+}
+
+.B {
+    position: absolute;
+    top: 70%;
+    left: 35%;
+    font-size: 20px;
+    font-family: Nunito-Regular;
+}
+
+.C {
+    position: absolute;
+    top: 70%;
+    left: 65%;
+    font-size: 20px;
+    font-family: Nunito-Regular;
+}
+
+p {
+    font-family: Nunito-Regular;
+}
+
 
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
@@ -205,4 +305,6 @@ Large (lg) devices (dektops 992px and up)
 Extra (xl) large devices (large desktops 1200æx and up)
 @media (min-width: 1200pxpx) {...}
 */
+
+
 /*# sourceMappingURL=main.css.map */

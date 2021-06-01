@@ -60,6 +60,10 @@
   background-color: #F3F3F3;
 }
 
+.fab {
+  font-weight: 800;
+}
+
 @media (max-width: 575px) {
   .display-4 {
     font-size: 1.5rem;
@@ -90,5 +94,47 @@ h4 {
   text-transform: uppercase;
   color: #003366;
   font-family: Lato-Bold;
+}
+
+.A {
+  font-family: Nunito-Regular;
+  background-color: #213E75;
+  color: white;
+}
+
+.B {
+  font-family: Nunito-Regular;
+  background-color: #3C837A;
+  color: white;
+}
+
+.C {
+  font-family: Nunito-Regular;
+  background-color: #BC552F;
+  color: white;
+}
+
+.D {
+  font-family: Nunito-Regular;
+  background-color: #000000;
+  color: white;
+}
+
+.E {
+  font-family: Nunito-Regular;
+  background-color: #B9B03B;
+  color: white;
+}
+
+.bg-inf {
+  background-color: #3C837A;
+}
+
+.bg-succes {
+  background-color: #213E75;
+}
+
+.bg-dang {
+  background-color: #000000;
 }
 /*# sourceMappingURL=Kalender.css.map */

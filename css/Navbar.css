@@ -1,35 +1,44 @@
 /*---media Queries --*/
+
+
 /*--- Fonts --*/
+
 @font-face {
-  src: url(fonts/Lato-Regular.ttf);
-  font-family: Lato-Regular;
+    src: url(fonts/Lato-Regular.ttf);
+    font-family: Lato-Regular;
 }
 
 @font-face {
-  src: url(fonts/Lato-Bold.ttf);
-  font-family: Lato-Bold;
+    src: url(fonts/Lato-Bold.ttf);
+    font-family: Lato-Bold;
 }
 
 @font-face {
-  src: url(fonts/NunitoSans-Regular.ttf);
-  font-family: Nunito-Regular;
+    src: url(fonts/NunitoSans-Regular.ttf);
+    font-family: Nunito-Regular;
 }
 
 @font-face {
-  src: url(fonts/NunitoSans-Bold.ttf);
-  font-family: Nunito-Bold;
+    src: url(fonts/NunitoSans-Bold.ttf);
+    font-family: Nunito-Bold;
 }
 
 .nav-item {
-  font-size: 20px;
-  font-family: Lato-Bold;
+    font-size: 20px;
+    font-family: Lato-Bold;
 }
 
 .fas {
-  size: 1px;
+    size: 1px;
 }
 
 .navbar {
-  background-color: #F3F3F3;
+    background-color: #F3F3F3;
 }
+
+.fab {
+    font-weight: 800;
+}
+
+
 /*# sourceMappingURL=Navbar.css.map */

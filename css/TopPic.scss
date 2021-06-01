@@ -11,7 +11,7 @@
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    background-image: url(../Img/Forside.jpg);
+    background-image: url(../Img/Forside.png);
     background-size: cover;
 }
 
@@ -49,4 +49,8 @@ h2 {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+}
+
+.flyt {
+    padding: 30px;
 }

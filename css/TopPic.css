@@ -1,53 +1,59 @@
 .hero {
-  position: relative;
-  height: 100vh;
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  background-image: url(../Img/Forside.jpg);
-  background-size: cover;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-image: url(../Img/Forside.png);
+    background-size: cover;
 }
 
 .hero::before {
-  content: "";
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  background-color: rgba(0, 0, 0, 0.25);
-  opacity: 66%;
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.25);
+    opacity: 66%;
 }
 
 h1 {
-  position: relative;
-  color: #ffffff;
-  font-size: 100px;
-  line-height: 0.9;
-  text-align: center;
+    position: relative;
+    color: #ffffff;
+    font-size: 100px;
+    line-height: 0.9;
+    text-align: center;
 }
 
 h2 {
-  position: relative;
-  color: #ffffff;
-  font-size: 80px;
-  line-height: 0.9;
-  text-align: center;
+    position: relative;
+    color: #ffffff;
+    font-size: 80px;
+    line-height: 0.9;
+    text-align: center;
 }
 
 .btn {
-  position: relative;
-  color: white;
-  font-size: 20px;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+    position: relative;
+    color: white;
+    font-size: 20px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
+
+.flyt {
+    padding: 30px;
+}
+
+
 /*# sourceMappingURL=TopPic.css.map */
