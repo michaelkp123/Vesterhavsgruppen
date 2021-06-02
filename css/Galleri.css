@@ -1,83 +1,6 @@
-.spon {
-  font-size: 20px;
-  color: black;
-  font-family: Lato-Regular;
-}
-
-.footer {
-  background-color: rgba(15, 187, 173, 0.3);
-}
-
-/*---media Queries --*/
-/*--- Fonts --*/
-@font-face {
-  src: url(../Fonts/Lato-Regular.ttf);
-  font-family: Lato-Regular;
-}
-
-@font-face {
-  src: url(../Fonts/Lato-Bold.ttf);
-  font-family: Lato-Bold;
-}
-
-@font-face {
-  src: url(../Fonts/NunitoSans-Regular.ttf);
-  font-family: Nunito-Regular;
-}
-
-@font-face {
-  src: url(../Fonts/NunitoSans-Bold.ttf);
-  font-family: Nunito-Bold;
-}
-
-.nav-top {
-  background-color: #0FBBAD;
-  min-height: 40px;
-}
-
-/*---media Queries --*/
-/*--- Fonts --*/
-@font-face {
-  src: url(../Fonts/Lato-Regular.ttf);
-  font-family: Lato-Regular;
-}
-
-@font-face {
-  src: url(../Fonts/Lato-Bold.ttf);
-  font-family: Lato-Bold;
-}
-
-@font-face {
-  src: url(../Fonts/NunitoSans-Regular.ttf);
-  font-family: Nunito-Regular;
-}
-
-@font-face {
-  src: url(../Fonts/NunitoSans-Bold.ttf);
-  font-family: Nunito-Bold;
-}
-
-.nav-item {
-  font-size: 20px;
-  font-family: Lato-Bold;
-}
-
-.fas {
-  size: 1px;
-}
-
-.navbar {
-  background-color: #F3F3F3;
-}
-
-.fab {
-  font-weight: 800;
-}
-
 * {
   padding: 0;
   margin: 0;
-  overflow-x: hidden;
 }
 
 /*	general	*/
@@ -91,6 +14,7 @@ section {
   color: #3F6184;
   text-align: center;
   font-weight: 500;
+  margin-bottom: 70px;
 }
 
 .filter-button {
@@ -137,4 +61,6 @@ section {
   -webkit-transition: 2s;
   transition: 2s;
 }
+
+/*	end gallery */
 /*# sourceMappingURL=Galleri.css.map */
