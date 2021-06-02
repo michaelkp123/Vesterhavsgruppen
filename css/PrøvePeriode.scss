@@ -1,7 +1,6 @@
 @import './Top.scss';
 @import './foter.scss';
 @import './Variables.scss';
-@import './Navtop.scss';
 @import "./Navbar.scss";
 .Headline {
     font-family: Lato-Bold;
@@ -13,4 +12,9 @@
     font-family: Nunito-Regular;
     color: black;
     font-size: 20px;
+}
+
+.nav-top {
+    background-color: $LightSeaGreen;
+    min-height: 20px;
 }

@@ -1,7 +1,6 @@
 @import './Top.scss';
 @import './foter.scss';
 @import './Variables.scss';
-@import './Navtop.scss';
 @import "./Navbar.scss";
 body {
     overflow-x: hidden;
@@ -31,4 +30,9 @@ section h2 {
 
 p {
     font-family: Nunito-Regular;
+}
+
+.nav-top {
+    background-color: $LightSeaGreen;
+    min-height: 20px;
 }

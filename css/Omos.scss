@@ -1,7 +1,6 @@
 @import './Top.scss';
 @import './foter.scss';
 @import './Variables.scss';
-@import './Navtop.scss';
 @import "./Navbar.scss";
 body {
     overflow-x: hidden;
@@ -52,4 +51,9 @@ p {
 .Infografik {
     width: 500px;
     margin: 0 auto;
+}
+
+.nav-top {
+    background-color: $LightSeaGreen;
+    min-height: 20px;
 }

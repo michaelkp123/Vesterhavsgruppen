@@ -72,11 +72,6 @@
   font-family: Nunito-Bold;
 }
 
-.nav-top {
-  background-color: #0FBBAD;
-  min-height: 40px;
-}
-
 /*---media Queries --*/
 /*--- Fonts --*/
 @font-face {
@@ -135,5 +130,10 @@
 
 body {
   height: 100vh;
+}
+
+.nav-top {
+  background-color: #0FBBAD;
+  min-height: 20px;
 }
 /*# sourceMappingURL=Marbæk.css.map */
