@@ -1,85 +1,121 @@
 /*---media Queries --*/
-
-
 /*--- Fonts --*/
-
 @font-face {
-    src: url(../Fonts/Lato-Regular.ttf);
-    font-family: Lato-Regular;
-}
-
-@font-face {
-    src: url(../Fonts/Lato-Bold.ttf);
-    font-family: Lato-Bold;
+  src: url(../Fonts/Lato-Regular.ttf);
+  font-family: Lato-Regular;
 }
 
 @font-face {
-    src: url(../Fonts/NunitoSans-Regular.ttf);
-    font-family: Nunito-Regular;
+  src: url(../Fonts/Lato-Bold.ttf);
+  font-family: Lato-Bold;
 }
 
 @font-face {
-    src: url(../Fonts/NunitoSans-Bold.ttf);
-    font-family: Nunito-Bold;
+  src: url(../Fonts/NunitoSans-Regular.ttf);
+  font-family: Nunito-Regular;
 }
 
-.hero {
-    position: relative;
-    height: 100vh;
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    background-image: url(../Img/Forside.png);
-    background-size: cover;
+@font-face {
+  src: url(../Fonts/NunitoSans-Bold.ttf);
+  font-family: Nunito-Bold;
 }
 
-.hero::before {
-    content: "";
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    background-color: rgba(0, 0, 0, 0.25);
-    opacity: 66%;
+#main {
+  width: 100%;
+  height: 75vh;
+  background: url(../Img/Forside.png) top left;
+  background-size: cover;
+  position: relative;
 }
 
-h1 {
-    position: relative;
-    color: #ffffff;
-    font-size: 100px;
-    line-height: 0.9;
-    text-align: center;
+#main:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
-h2 {
-    position: relative;
-    color: #ffffff;
-    font-size: 80px;
-    line-height: 0.9;
-    text-align: center;
+#main h1 {
+  position: relative;
+  color: #ffffff;
+  font-size: 100px;
+  line-height: 0.9;
+  text-align: center;
+  font-family: Lato-Regular;
+}
+
+#main h2 {
+  position: relative;
+  color: #ffffff;
+  font-size: 80px;
+  line-height: 0.9;
+  text-align: center;
 }
 
 .btn {
-    position: relative;
-    color: white;
-    font-size: 20px;
+  position: relative;
+  color: white;
+  font-size: 20px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.scrolled-offset {
+  margin-top: 70px;
+}
+
+.align-items-center {
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+}
+
+.d-flex {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+.container {
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (max-width: 768px) {
+  #main {
+    height: 100vh;
+  }
+  #main h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #main h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .featured-services .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #main {
+    background-attachment: fixed;
+  }
 }
-
-.flyt {
-    padding: 30px;
-    font-family: Lato-Regular;
-}
-
-
 /*# sourceMappingURL=TopPic.css.map */

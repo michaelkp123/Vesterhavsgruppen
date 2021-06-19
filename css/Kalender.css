@@ -1,149 +1,140 @@
 /*---media Queries --*/
-
-
 /*--- Fonts --*/
-
 @font-face {
-    src: url(../Fonts/Lato-Regular.ttf);
-    font-family: Lato-Regular;
+  src: url(../Fonts/Lato-Regular.ttf);
+  font-family: Lato-Regular;
 }
 
 @font-face {
-    src: url(../Fonts/Lato-Bold.ttf);
-    font-family: Lato-Bold;
+  src: url(../Fonts/Lato-Bold.ttf);
+  font-family: Lato-Bold;
 }
 
 @font-face {
-    src: url(../Fonts/NunitoSans-Regular.ttf);
-    font-family: Nunito-Regular;
+  src: url(../Fonts/NunitoSans-Regular.ttf);
+  font-family: Nunito-Regular;
 }
 
 @font-face {
-    src: url(../Fonts/NunitoSans-Bold.ttf);
-    font-family: Nunito-Bold;
+  src: url(../Fonts/NunitoSans-Bold.ttf);
+  font-family: Nunito-Bold;
 }
-
 
 /*---media Queries --*/
-
-
 /*--- Fonts --*/
-
 @font-face {
-    src: url(../Fonts/Lato-Regular.ttf);
-    font-family: Lato-Regular;
+  src: url(../Fonts/Lato-Regular.ttf);
+  font-family: Lato-Regular;
 }
 
 @font-face {
-    src: url(../Fonts/Lato-Bold.ttf);
-    font-family: Lato-Bold;
+  src: url(../Fonts/Lato-Bold.ttf);
+  font-family: Lato-Bold;
 }
 
 @font-face {
-    src: url(../Fonts/NunitoSans-Regular.ttf);
-    font-family: Nunito-Regular;
+  src: url(../Fonts/NunitoSans-Regular.ttf);
+  font-family: Nunito-Regular;
 }
 
 @font-face {
-    src: url(../Fonts/NunitoSans-Bold.ttf);
-    font-family: Nunito-Bold;
+  src: url(../Fonts/NunitoSans-Bold.ttf);
+  font-family: Nunito-Bold;
 }
 
 .nav-item {
-    font-size: 20px;
-    font-family: Lato-Bold;
+  font-size: 20px;
+  font-family: Lato-Bold;
 }
 
 .fas {
-    size: 1px;
+  size: 1px;
 }
 
 .navbar {
-    background-color: #F3F3F3;
+  background-color: #F3F3F3;
 }
 
 .fab {
-    font-weight: 800;
+  font-weight: 800;
 }
 
 @media (max-width: 575px) {
-    .display-4 {
-        font-size: 1.5rem;
-    }
-    .day h5 {
-        background-color: #f8f9fa;
-        padding: 3px 5px 5px;
-        margin: -8px -8px 8px -8px;
-    }
-    .date {
-        padding-left: 4px;
-    }
+  .display-4 {
+    font-size: 1.5rem;
+  }
+  .day h5 {
+    background-color: #f8f9fa;
+    padding: 3px 5px 5px;
+    margin: -8px -8px 8px -8px;
+  }
+  .date {
+    padding-left: 4px;
+  }
 }
 
 @media (min-width: 576px) {
-    .day {
-        height: 14.2857vw;
-    }
+  .day {
+    height: 14.2857vw;
+  }
 }
 
 #inlineCheckbox1 {
-    color: blue;
+  color: blue;
 }
 
 h4 {
-    font-size: 40px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #003366;
-    font-family: Lato-Bold;
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #003366;
+  font-family: Lato-Bold;
 }
 
 .A {
-    font-family: Nunito-Regular;
-    background-color: #213E75;
-    color: white;
+  font-family: Nunito-Regular;
+  background-color: #213E75;
+  color: white;
 }
 
 .B {
-    font-family: Nunito-Regular;
-    background-color: #3C837A;
-    color: white;
+  font-family: Nunito-Regular;
+  background-color: #3C837A;
+  color: white;
 }
 
 .C {
-    font-family: Nunito-Regular;
-    background-color: #BC552F;
-    color: white;
+  font-family: Nunito-Regular;
+  background-color: #BC552F;
+  color: white;
 }
 
 .D {
-    font-family: Nunito-Regular;
-    background-color: #000000;
-    color: white;
+  font-family: Nunito-Regular;
+  background-color: #000000;
+  color: white;
 }
 
 .E {
-    font-family: Nunito-Regular;
-    background-color: #B9B03B;
-    color: white;
+  font-family: Nunito-Regular;
+  background-color: #B9B03B;
+  color: white;
 }
 
 .bg-inf {
-    background-color: #3C837A;
+  background-color: #3C837A;
 }
 
 .bg-succes {
-    background-color: #213E75;
+  background-color: #213E75;
 }
 
 .bg-dang {
-    background-color: #000000;
+  background-color: #000000;
 }
 
 .nav-top {
-    background-color: #0FBBAD;
-    min-height: 20px;
+  background-color: #0FBBAD;
+  min-height: 20px;
 }
-
-
 /*# sourceMappingURL=Kalender.css.map */
