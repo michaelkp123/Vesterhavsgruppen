@@ -171,10 +171,9 @@
     font-family: Nunito-Bold;
 }
 
-.hero {
-    position: relative;
-    height: 100vh;
+#main {
     width: 100%;
+<<<<<<< HEAD
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -185,29 +184,33 @@
     -ms-flex-pack: center;
     justify-content: center;
     background-image: url(../Img/forside.png);
+=======
+    height: 75vh;
+    background: url(../Img/Forside.png) top left;
+>>>>>>> ed30baaef3725d8205f45d6da945c2159d0c58ad
     background-size: cover;
+    position: relative;
 }
 
-.hero::before {
+#main:before {
     content: "";
     position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    background-color: rgba(0, 0, 0, 0.25);
-    opacity: 66%;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
-h1 {
+#main h1 {
     position: relative;
     color: #ffffff;
     font-size: 100px;
     line-height: 0.9;
     text-align: center;
+    font-family: Lato-Regular;
 }
 
-h2 {
+#main h2 {
     position: relative;
     color: #ffffff;
     font-size: 80px;
@@ -224,13 +227,68 @@ h2 {
     align-items: center;
 }
 
-.flyt {
-    padding: 30px;
-    font-family: Lato-Regular;
+.scrolled-offset {
+    margin-top: 70px;
 }
 
-body {
-    overflow-x: hidden;
+.align-items-center {
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+}
+
+.d-flex {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+}
+
+.container {
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (max-width: 768px) {
+    #main {
+        height: 100vh;
+    }
+    #main h1 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    #main h2 {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .featured-services .row {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    #main {
+        background-attachment: fixed;
+    }
+}
+
+nav {
+    width: 100%;
+}
+
+footer {
+    width: 100%;
 }
 
 .scroll {

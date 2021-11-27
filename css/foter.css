@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .footer {
     background: #003366;
     color: white;
@@ -27,7 +28,15 @@
     font-size: 40px;
     line-height: 0.9;
     text-align: left;
+=======
+.spon {
+  font-size: 20px;
+  color: black;
+  font-family: Lato-Regular;
 }
 
-
+.footer {
+  background-color: rgba(15, 187, 173, 0.3);
+>>>>>>> ed30baaef3725d8205f45d6da945c2159d0c58ad
+}
 /*# sourceMappingURL=foter.css.map */

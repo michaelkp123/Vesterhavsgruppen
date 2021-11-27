@@ -1,117 +1,107 @@
 /*---media Queries --*/
-
-
 /*--- Fonts --*/
-
 @font-face {
-    src: url(../Fonts/Lato-Regular.ttf);
-    font-family: Lato-Regular;
+  src: url(../Fonts/Lato-Regular.ttf);
+  font-family: Lato-Regular;
 }
 
 @font-face {
-    src: url(../Fonts/Lato-Bold.ttf);
-    font-family: Lato-Bold;
+  src: url(../Fonts/Lato-Bold.ttf);
+  font-family: Lato-Bold;
 }
 
 @font-face {
-    src: url(../Fonts/NunitoSans-Regular.ttf);
-    font-family: Nunito-Regular;
+  src: url(../Fonts/NunitoSans-Regular.ttf);
+  font-family: Nunito-Regular;
 }
 
 @font-face {
-    src: url(../Fonts/NunitoSans-Bold.ttf);
-    font-family: Nunito-Bold;
+  src: url(../Fonts/NunitoSans-Bold.ttf);
+  font-family: Nunito-Bold;
 }
 
 .image {
-    position: relative;
-    text-align: center;
+  position: relative;
+  text-align: center;
 }
 
 .centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    font-size: 100px;
-    color: white;
-    font-family: Lato-Regular;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 100px;
+  color: white;
+  font-family: Lato-Regular;
 }
 
 .size {
-    width: 100vw;
+  width: 100vw;
 }
-
 
 /*---media Queries --*/
-
-
 /*--- Fonts --*/
-
 @font-face {
-    src: url(../Fonts/Lato-Regular.ttf);
-    font-family: Lato-Regular;
+  src: url(../Fonts/Lato-Regular.ttf);
+  font-family: Lato-Regular;
 }
 
 @font-face {
-    src: url(../Fonts/Lato-Bold.ttf);
-    font-family: Lato-Bold;
+  src: url(../Fonts/Lato-Bold.ttf);
+  font-family: Lato-Bold;
 }
 
 @font-face {
-    src: url(../Fonts/NunitoSans-Regular.ttf);
-    font-family: Nunito-Regular;
+  src: url(../Fonts/NunitoSans-Regular.ttf);
+  font-family: Nunito-Regular;
 }
 
 @font-face {
-    src: url(../Fonts/NunitoSans-Bold.ttf);
-    font-family: Nunito-Bold;
+  src: url(../Fonts/NunitoSans-Bold.ttf);
+  font-family: Nunito-Bold;
 }
-
 
 /*---media Queries --*/
-
-
 /*--- Fonts --*/
-
 @font-face {
-    src: url(../Fonts/Lato-Regular.ttf);
-    font-family: Lato-Regular;
+  src: url(../Fonts/Lato-Regular.ttf);
+  font-family: Lato-Regular;
 }
 
 @font-face {
-    src: url(../Fonts/Lato-Bold.ttf);
-    font-family: Lato-Bold;
+  src: url(../Fonts/Lato-Bold.ttf);
+  font-family: Lato-Bold;
 }
 
 @font-face {
-    src: url(../Fonts/NunitoSans-Regular.ttf);
-    font-family: Nunito-Regular;
+  src: url(../Fonts/NunitoSans-Regular.ttf);
+  font-family: Nunito-Regular;
 }
 
 @font-face {
-    src: url(../Fonts/NunitoSans-Bold.ttf);
-    font-family: Nunito-Bold;
+  src: url(../Fonts/NunitoSans-Bold.ttf);
+  font-family: Nunito-Bold;
 }
 
 .nav-item {
-    font-size: 20px;
-    font-family: Lato-Bold;
+  font-size: 20px;
+  font-family: Lato-Bold;
 }
 
 .fas {
-    size: 1px;
+  size: 1px;
 }
 
 .navbar {
-    background-color: #F3F3F3;
+  background-color: #F3F3F3;
 }
 
 .fab {
-    font-weight: 800;
+  font-weight: 800;
 }
 
+<<<<<<< HEAD
 .footer {
     background: #003366;
     color: white;
@@ -165,26 +155,46 @@
     font-weight: 500;
     padding-bottom: 10px;
     padding-top: 20px;
+=======
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/*	general	*/
+section {
+  padding: 50px 0;
+}
+
+/*	gallery */
+.gallery-title {
+  font-size: 36px;
+  color: #3F6184;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 70px;
+>>>>>>> ed30baaef3725d8205f45d6da945c2159d0c58ad
 }
 
 .filter-button {
-    font-size: 18px;
-    border: 2px solid #3F6184;
-    padding: 5px 10px;
-    text-align: center;
-    color: #3F6184;
-    margin-bottom: 30px;
-    background: transparent;
+  font-size: 18px;
+  border: 2px solid #3F6184;
+  padding: 5px 10px;
+  text-align: center;
+  color: #3F6184;
+  margin-bottom: 30px;
+  background: transparent;
 }
 
 .filter-button:hover,
 .filter-button:focus,
 .filter-button.active {
-    color: #ffffff;
-    background-color: #3F6184;
-    outline: none;
+  color: #ffffff;
+  background-color: #3F6184;
+  outline: none;
 }
 
+<<<<<<< HEAD
 .gallery_product .img-info {
     position: absolute;
     background: rgba(0, 0, 0, 0.5);
@@ -197,13 +207,43 @@
     display: none;
     -webkit-transition: 2s;
     transition: 2s;
+=======
+.gallery_product {
+  margin: 0px;
+  padding: 0;
+  position: relative;
+}
+
+.gallery_product .img-info {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 20px;
+  overflow: hidden;
+  color: #fff;
+  top: 0;
+  display: none;
+  -webkit-transition: 2s;
+  transition: 2s;
+>>>>>>> ed30baaef3725d8205f45d6da945c2159d0c58ad
 }
 
 .gallery_product:hover .img-info {
-    display: block;
-    -webkit-transition: 2s;
-    transition: 2s;
+  display: block;
+  -webkit-transition: 2s;
+  transition: 2s;
 }
 
+<<<<<<< HEAD
 
+=======
+.nav-top {
+  background-color: #0FBBAD;
+  min-height: 20px;
+}
+
+/*	end gallery */
+>>>>>>> ed30baaef3725d8205f45d6da945c2159d0c58ad
 /*# sourceMappingURL=Galleri.css.map */

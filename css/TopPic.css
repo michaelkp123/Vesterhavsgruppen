@@ -20,6 +20,7 @@
   font-family: Nunito-Bold;
 }
 
+<<<<<<< HEAD
 .hero {
   position: relative;
   height: 100vh;
@@ -49,14 +50,41 @@
 }
 
 h1 {
+=======
+#main {
+  width: 100%;
+  height: 75vh;
+  background: url(../Img/Forside.png) top left;
+  background-size: cover;
+  position: relative;
+}
+
+#main:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#main h1 {
+>>>>>>> ed30baaef3725d8205f45d6da945c2159d0c58ad
   position: relative;
   color: #ffffff;
   font-size: 100px;
   line-height: 0.9;
   text-align: center;
+<<<<<<< HEAD
 }
 
 h2 {
+=======
+  font-family: Lato-Regular;
+}
+
+#main h2 {
+>>>>>>> ed30baaef3725d8205f45d6da945c2159d0c58ad
   position: relative;
   color: #ffffff;
   font-size: 80px;
@@ -71,10 +99,70 @@ h2 {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+<<<<<<< HEAD
 }
 
 .flyt {
   padding: 30px;
   font-family: Lato-Regular;
 }
+=======
+}
+
+.scrolled-offset {
+  margin-top: 70px;
+}
+
+.align-items-center {
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+}
+
+.d-flex {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+.container {
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (max-width: 768px) {
+  #main {
+    height: 100vh;
+  }
+  #main h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #main h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .featured-services .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #main {
+    background-attachment: fixed;
+  }
+}
+>>>>>>> ed30baaef3725d8205f45d6da945c2159d0c58ad
 /*# sourceMappingURL=TopPic.css.map */
