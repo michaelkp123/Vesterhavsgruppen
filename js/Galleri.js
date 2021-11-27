@@ -1,3 +1,8 @@
+$(document).on("click", '[data-toggle="lightbox"]', function(event) {
+    event.preventDefault();
+    $(this).ekkoLightbox();
+});
+
 /*	gallery */
 $(document).ready(function() {
 
@@ -16,13 +21,5 @@ $(document).ready(function() {
             $(this).removeClass("active");
         }
         $(this).addClass("active");
-    });
-});
-/*	end gallery */
-
-$(document).ready(function() {
-    $(".fancybox").fancybox({
-        openEffect: "none",
-        closeEffect: "none"
     });
 });

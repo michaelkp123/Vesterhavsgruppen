@@ -1,139 +1,173 @@
 /*---media Queries --*/
+
+
 /*--- Fonts --*/
+
 @font-face {
-  src: url(../Fonts/Lato-Regular.ttf);
-  font-family: Lato-Regular;
+    src: url(../Fonts/Lato-Regular.ttf);
+    font-family: Lato-Regular;
 }
 
 @font-face {
-  src: url(../Fonts/Lato-Bold.ttf);
-  font-family: Lato-Bold;
+    src: url(../Fonts/Lato-Bold.ttf);
+    font-family: Lato-Bold;
 }
 
 @font-face {
-  src: url(../Fonts/NunitoSans-Regular.ttf);
-  font-family: Nunito-Regular;
+    src: url(../Fonts/NunitoSans-Regular.ttf);
+    font-family: Nunito-Regular;
 }
 
 @font-face {
-  src: url(../Fonts/NunitoSans-Bold.ttf);
-  font-family: Nunito-Bold;
+    src: url(../Fonts/NunitoSans-Bold.ttf);
+    font-family: Nunito-Bold;
 }
 
 .image {
-  position: relative;
-  text-align: center;
+    position: relative;
+    text-align: center;
 }
 
 .centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  font-size: 100px;
-  color: white;
-  font-family: Lato-Regular;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    color: white;
+    font-family: Lato-Regular;
 }
 
 .size {
-  width: 100vw;
-}
-
-.spon {
-  font-size: 20px;
-  color: black;
-  font-family: Lato-Regular;
+    width: 100vw;
 }
 
 .footer {
-  background-color: rgba(15, 187, 173, 0.3);
+    background: #003366;
+    color: white;
 }
+
+.footer .about-company i {
+    font-size: 50px;
+}
+
+.footer .about-company a {
+    color: white;
+    -webkit-transition: color .2s;
+    transition: color .2s;
+}
+
+.footer .about-company a:hover {
+    color: #4180CB;
+}
+
+.footer .location i {
+    font-size: 18px;
+}
+
+.navn {
+    position: relative;
+    color: #ffffff;
+    font-size: 40px;
+    line-height: 0.9;
+    text-align: left;
+}
+
 
 /*---media Queries --*/
+
+
 /*--- Fonts --*/
+
 @font-face {
-  src: url(../Fonts/Lato-Regular.ttf);
-  font-family: Lato-Regular;
+    src: url(../Fonts/Lato-Regular.ttf);
+    font-family: Lato-Regular;
 }
 
 @font-face {
-  src: url(../Fonts/Lato-Bold.ttf);
-  font-family: Lato-Bold;
+    src: url(../Fonts/Lato-Bold.ttf);
+    font-family: Lato-Bold;
 }
 
 @font-face {
-  src: url(../Fonts/NunitoSans-Regular.ttf);
-  font-family: Nunito-Regular;
+    src: url(../Fonts/NunitoSans-Regular.ttf);
+    font-family: Nunito-Regular;
 }
 
 @font-face {
-  src: url(../Fonts/NunitoSans-Bold.ttf);
-  font-family: Nunito-Bold;
+    src: url(../Fonts/NunitoSans-Bold.ttf);
+    font-family: Nunito-Bold;
 }
+
 
 /*---media Queries --*/
+
+
 /*--- Fonts --*/
+
 @font-face {
-  src: url(../Fonts/Lato-Regular.ttf);
-  font-family: Lato-Regular;
+    src: url(../Fonts/Lato-Regular.ttf);
+    font-family: Lato-Regular;
 }
 
 @font-face {
-  src: url(../Fonts/Lato-Bold.ttf);
-  font-family: Lato-Bold;
+    src: url(../Fonts/Lato-Bold.ttf);
+    font-family: Lato-Bold;
 }
 
 @font-face {
-  src: url(../Fonts/NunitoSans-Regular.ttf);
-  font-family: Nunito-Regular;
+    src: url(../Fonts/NunitoSans-Regular.ttf);
+    font-family: Nunito-Regular;
 }
 
 @font-face {
-  src: url(../Fonts/NunitoSans-Bold.ttf);
-  font-family: Nunito-Bold;
+    src: url(../Fonts/NunitoSans-Bold.ttf);
+    font-family: Nunito-Bold;
 }
 
 .nav-item {
-  font-size: 20px;
-  font-family: Lato-Bold;
+    font-size: 20px;
+    font-family: Lato-Bold;
 }
 
 .fas {
-  size: 1px;
+    size: 1px;
 }
 
 .navbar {
-  background-color: #F3F3F3;
+    background-color: #F3F3F3;
 }
 
 .fab {
-  font-weight: 800;
+    font-weight: 800;
 }
 
 .Headline {
-  font-family: Lato-Bold;
-  color: #003366;
-  font-size: 35px;
+    font-family: Lato-Bold;
+    color: #003366;
+    font-size: 35px;
 }
 
 .Bread {
-  font-family: Nunito-Regular;
-  color: black;
-  font-size: 20px;
+    font-family: Nunito-Regular;
+    color: black;
+    font-size: 20px;
 }
 
 .sted {
-  font-family: Lato-Bold;
-  font-size: 30px;
+    font-family: Lato-Bold;
+    font-size: 30px;
 }
 
 body {
-  height: 100vh;
+    height: 100vh;
 }
 
 .nav-top {
-  background-color: #0FBBAD;
-  min-height: 20px;
+    background-color: #0FBBAD;
+    min-height: 20px;
 }
+
+
 /*# sourceMappingURL=Marbæk.css.map */

@@ -9,10 +9,10 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css">
     <link rel="stylesheet" href="./css/Galleri.css">
     <link rel="stylesheet" href="./css/all.min.css">
-    <link rel="stylesheet" href="./js/fancyBox/source/jquery.fancybox.css" type="text.css" media="screen">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" />
     <title>Galleri</title>
 
 </head>
@@ -62,171 +62,225 @@
         </div>
     </nav>
 
-    <!--Gallery https://bootsnipp.com/snippets/N6vrp-->
-    <section class="portfolio" id="portfolio">
-        <div class="container-fluid">
-            <div class="row">
+    <!--Gallery https://freefrontend.com/bootstrap-galleries/  https://www.youtube.com/watch?v=h5v2LVFmbMY-->
+    <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <h1 class="gallery-title">Gallery</h1>
+    </div>
 
-                <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <h1 class="gallery-title">Galleri</h1>
-                </div>
+    <div align="center">
+        <button class="filter-button" data-filter="all">All</button>
+        <button class="filter-button" data-filter="category1">2021</button>
+        <button class="filter-button" data-filter="category2">2019</button>
+        <button class="filter-button" data-filter="category3">2016</button>
+    </div>
 
-                <div align="center">
-                    <button class="filter-button" data-filter="all">ALLE</button>
-                    <button class="filter-button" data-filter="category1">2019</button>
-                    <button class="filter-button" data-filter="category2">2016</button>
-                    <button class="filter-button" data-filter="category3">2015</button>
-                </div>
-
-                <br/>
-
-                <div class="gallery_product col-sm-3 col-xs-6 filter category1">
-                    <a class="fancybox" rel="ligthbox" href="./Img/2019/1.png">
-                        <img class="img-responsive" alt="" src="./Img/2019/1.png" />
-                        <div class='img-info'>
-                            <h4>Image Title 1</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="gallery_product col-sm-3 col-xs-6 filter category2">
-                    <a class="fancybox" rel="ligthbox" href="./Img/2019/1.png">
-                        <img class="img-responsive" alt="" src="./Img/2016/1.png" />
-                        <div class='img-info'>
-                            <h4>Image Title 1</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="gallery_product col-sm-3 col-xs-6 filter category3">
-                    <a class="fancybox" rel="ligthbox" href="./Img/2019/1.png">
-                        <img class="img-responsive" alt="" src="./Img/2015/1.png" />
-                        <div class='img-info'>
-                            <h4>Image Title 1</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="gallery_product col-sm-3 col-xs-6 filter category1">
-                    <a class="fancybox" rel="ligthbox" href="./Img/2019/1.png">
-                        <img class="img-responsive" alt="" src="./Img/2019/2.png" />
-                        <div class='img-info'>
-                            <h4>Image Title 1</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="gallery_product col-sm-3 col-xs-6 filter category2">
-                    <a class="fancybox" rel="ligthbox" href="./Img/2019/1.png">
-                        <img class="img-responsive" alt="" src="./Img/2016/2.png" />
-                        <div class='img-info'>
-                            <h4>Image Title 1</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="gallery_product col-sm-3 col-xs-6 filter category3">
-                    <a class="fancybox" rel="ligthbox" href="./Img/2019/1.png">
-                        <img class="img-responsive" alt="" src="./Img/2015/2.png" />
-                        <div class='img-info'>
-                            <h4>Image Title 1</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="gallery_product col-sm-3 col-xs-6 filter category1">
-                    <a class="fancybox" rel="ligthbox" href="./Img/2019/1.png">
-                        <img class="img-responsive" alt="" src="./Img/2019/3.png" />
-                        <div class='img-info'>
-                            <h4>Image Title 1</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="gallery_product col-sm-3 col-xs-6 filter category2">
-                    <a class="fancybox" rel="ligthbox" href="./Img/2019/1.png">
-                        <img class="img-responsive" alt="" src="./Img/2016/3.png" />
-                        <div class='img-info'>
-                            <h4>Image Title 1</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="gallery_product col-sm-3 col-xs-6 filter category3">
-                    <a class="fancybox" rel="ligthbox" href="./Img/2019/1.png">
-                        <img class="img-responsive" alt="" src="./Img/2015/3.png" />
-                        <div class='img-info'>
-                            <h4>Image Title 1</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="gallery_product col-sm-3 col-xs-6 filter category1">
-                    <a class="fancybox" rel="ligthbox" href="./Img/2019/1.png">
-                        <img class="img-responsive" alt="" src="./Img/2019/4.png" />
-                        <div class='img-info'>
-                            <h4>Image Title 1</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="gallery_product col-sm-3 col-xs-6 filter category2">
-                    <a class="fancybox" rel="ligthbox" href="./Img/2019/1.png">
-                        <img class="img-responsive" alt="" src="./Img/2016/4.png" />
-                        <div class='img-info'>
-                            <h4>Image Title 1</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="gallery_product col-sm-3 col-xs-6 filter category3">
-                    <a class="fancybox" rel="ligthbox" href="./Img/2019/1.png">
-                        <img class="img-responsive" alt="" src="./Img/2015/4.png" />
-                        <div class='img-info'>
-                            <h4>Image Title 1</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        </div>
-                    </a>
-                </div>
-
+    <div class="container-fluid">
+        <div class="row mt-4">
+            <div class="gallery_product item col-sm-6 col-md-4 mb-3 filter category1">
+                <a href="./Img/2021/1.jpg" class="fancybox" data-fancybox="gallery1">
+                    <img src="./Img/2021/1.png" width="100%" height="100%">
+                    <div class='img-info'>
+                        <h4>Mini møde tirsdag den 18 maj.</h4>
+                        <p>Dreng har det sjovt.</p>
+                    </div>
+                </a>
             </div>
-        </div>
-    </section>
 
+            <div class="gallery_product item col-sm-6 col-md-4 mb-3 filter category2">
+                <a href="./Img/2019/1.jpg" class="fancybox" data-fancybox="gallery1">
+                    <img src="./Img/2019/1.png" width="100%" height="100%">
+                    <div class='img-info'>
+                        <h4>Juniorsommerlejr på Forlev 2019</h4>
+                        <p>Dagen startede ud med, at børnene skulle sætte telt op.</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="gallery_product item col-sm-6 col-md-4 mb-3 filter category3">
+                <a href="./Img/2016/1.jpg" class="fancybox" data-fancybox="gallery1">
+                    <img src="./Img/2016/1.png" width="100%" height="100%">
+                    <div class='img-info'>
+                        <h4>Gruppesommerlejr til Tydal 2016</h4>
+                        <p>Kaos</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="gallery_product item col-sm-6 col-md-4 mb-3 filter category1">
+                <a href="./Img/2021/2.jpg" class="fancybox" data-fancybox="gallery1">
+                    <img src="./Img/2021/2.png" width="100%" height="100%">
+                    <div class='img-info'>
+                        <h4>Mini møde tirsdag den 18 maj.</h4>
+                        <p>Pandekager over bål.</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="gallery_product item col-sm-6 col-md-4 mb-3 filter category2">
+                <a href="./Img/2019/2.jpg" class="fancybox" data-fancybox="gallery1">
+                    <img src="./Img/2019/2.png" width="100%" height="100%">
+                    <div class='img-info'>
+                        <h4>Juniorsommerlejr på Forlev 2019</h4>
+                        <p>Aktiviteter på græs</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="gallery_product item col-sm-6 col-md-4 mb-3 filter category3">
+                <a href="./Img/2016/2.jpg" class="fancybox" data-fancybox="gallery1">
+                    <img src="./Img/2016/2.png" width="100%" height="100%">
+                    <div class='img-info'>
+                        <h4>Gruppesommerlejr til Tydal 2016</h4>
+                        <p>Nu blev børnene samlet til den årlige introduktion.</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="gallery_product item col-sm-6 col-md-4 mb-3 filter category1">
+                <a href="./Img/2021/3.jpg" class="fancybox" data-fancybox="gallery1">
+                    <img src="./Img/2021/3.png" width="100%" height="100%">
+                    <div class='img-info'>
+                        <h4>Mini møde tirsdag den 18 maj.</h4>
+                        <p>Børnene bliver utålmodige.</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="gallery_product item col-sm-6 col-md-4 mb-3 filter category2">
+                <a href="./Img/2019/3.jpg" class="fancybox" data-fancybox="gallery1">
+                    <img src="./Img/2019/3.png" width="100%" height="100%">
+                    <div class='img-info'>
+                        <h4>Juniorsommerlejr på Forlev 2019</h4>
+                        <p>Vi fandt også 2 børn der nød solen.</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="gallery_product item col-sm-6 col-md-4 mb-3 filter category3">
+                <a href="./Img/2016/3.jpg" class="fancybox" data-fancybox="gallery1">
+                    <img src="./Img/2016/3.png" width="100%" height="100%">
+                    <div class='img-info'>
+                        <h4>Gruppesommerlejr til Tydal 2016</h4>
+                        <p>Her bygger børnene bord, så de kan få noget af spise</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="gallery_product item col-sm-6 col-md-4 mb-3 filter category1">
+                <a href="./Img/2021/4.jpg" class="fancybox" data-fancybox="gallery1">
+                    <img src="./Img/2021/4.png" width="100%" height="100%">
+                    <div class='img-info'>
+                        <h4>Mini møde tirsdag den 18 maj.</h4>
+                        <p>Børnene klatrer i de mange træer ved hytten.</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="gallery_product item col-sm-6 col-md-4 mb-3 filter category2">
+                <a href="./Img/2019/4.jpg" class="fancybox" data-fancybox="gallery1">
+                    <img src="./Img/2019/4.png" width="100%" height="100%">
+                    <div class='img-info'>
+                        <h4>Juniorsommerlejr på Forlev 2019</h4>
+                        <p>Her bygger børnene en tømmerflåde, så de kan sejle på søen.</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="gallery_product item col-sm-6 col-md-4 mb-3 filter category3">
+                <a href="./Img/2016/4.jpg" class="fancybox" data-fancybox="gallery1">
+                    <img src="./Img/2016/4.png" width="100%" height="100%">
+                    <div class='img-info'>
+                        <h4>Gruppesommerlejr til Tydal 2016</h4>
+                        <p>Nu har børnene klaret alle deres pligter, og har nu fri.</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="gallery_product item col-sm-6 col-md-4 mb-3 filter category1">
+                <a href="./Img/2021/5.jpg" class="fancybox" data-fancybox="gallery1">
+                    <img src="./Img/2021/5.png" width="100%" height="100%">
+                    <div class='img-info'>
+                        <h4>Mini møde tirsdag den 18 maj.</h4>
+                        <p>Børnene spiller pind med en af deres ledere.</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="gallery_product item col-sm-6 col-md-4 mb-3 filter category2">
+                <a href="./Img/2019/5.jpg" class="fancybox" data-fancybox="gallery1">
+                    <img src="./Img/2019/5.png" width="100%" height="100%">
+                    <div class='img-info'>
+                        <h4>Juniorsommerlejr på Forlev 2019</h4>
+                        <p>Nu skal den tunge tømmerflåde løftes ned til søen.</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="gallery_product item col-sm-6 col-md-4 mb-3 filter category3">
+                <a href="./Img/2016/5.jpg" class="fancybox" data-fancybox="gallery1">
+                    <img src="./Img/2016/5.png" width="100%" height="100%">
+                    <div class='img-info'>
+                        <h4>Gruppesommerlejr til Tydal 2016</h4>
+                        <p>Mikro venter i spænding på næste opgave.</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="gallery_product item col-sm-6 col-md-4 mb-3 filter category1">
+                <a href="./Img/2021/6.jpg" class="fancybox" data-fancybox="gallery1">
+                    <img src="./Img/2021/6.png" width="100%" height="100%">
+                    <div class='img-info'>
+                        <h4>Mini møde tirsdag den 18 maj.</h4>
+                        <p>Nu er det lederens tur til at skyde pind. </p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="gallery_product item col-sm-6 col-md-4 mb-3 filter category2">
+                <a href="./Img/2019/6.jpg" class="fancybox" data-fancybox="gallery1">
+                    <img src="./Img/2019/6.png" width="100%" height="100%">
+                    <div class='img-info'>
+                        <h4>Juniorsommerlejr på Forlev 2019</h4>
+                        <p>Farvel siger børnene og sejler på opdagelse.</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="gallery_product item col-sm-6 col-md-4 mb-3 filter category3">
+                <a href="./Img/2016/6.jpg" class="fancybox" data-fancybox="gallery1">
+                    <img src="./Img/2016/6.png" width="100%" height="100%">
+                    <div class='img-info'>
+                        <h4>Gruppesommerlejr til Tydal 2016</h4>
+                        <p>Første gang de ser så beskidte fødder. </p>
+                    </div>
+                </a>
+            </div>
+
+
+        </div>
+    </div>
 
     <!--footer-->
-    <footer class="bg-light text-center text-lg-start">
+    <div class="mt-5 pt-5 pb-5 footer">
         <div class="container">
             <div class="row">
-                <div class=col-md-8>
-                    <p class="spon">VESTERHAVSGRUPPEN SPONSORAFTALE MED
-                        <a href="https://www.ok.dk/"><img src="./Img/ok logo.png" height="80" width="134" alt="ok logo"></a>
-                    </p>
+                <div class="col-lg-5 col-xs-12 about-company">
+                    <h2 class="navn">VESTERHAVSGRUPPEN</h2>
+                    <p class="pr-5 text-white-50">DDS Vesterhavsgruppen - de blå spejdere i Esbjerg</p>
+                    <p><a href="#"><i class="fab fa-facebook"></i></i></a>
                 </div>
-                <div class="col-md-4">
-                    <p>KONTAKT OS PÅ:
-                        <a href="https://www.facebook.com/pages/Vesterhavsgruppen-DDS/908378059235877"> <i class="fab fa-facebook"></i></a>
-                        <a href="kontakt@vesterhavsgruppen.dk"> <i class="far fa-envelope"></i></a>
-                    </p>
-                    <p>FIND OS PÅ: Bakkevej 14, 6700 Esbjerg</p>
+                <div class="col-lg-3 col-xs-12 ">
+                </div>
+                <div class="col-lg-4 col-xs-12 location">
+                    <h4 class="mt-lg-0 mt-sm-4">Lokation</h4>
+                    <p>Bakkevej 14, 6700 Esbjerg</p>
+                    <p class="mb-0"><i class="fa fa-phone mr-3"></i>40 29 26 71</p>
+                    <p><i class="fa fa-envelope-o mr-3"></i>gruppeleder@vesterhavsgruppen.dk</p>
                 </div>
             </div>
         </div>
-    </footer>
+    </div>
 </body>
-<script type="text/javascript" src="./js/fancyBox/source/jquery.fancybox.pack.js"></script>
-<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 <script src="./js/Galleri.js"></script>
 
 </html>

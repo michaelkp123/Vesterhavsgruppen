@@ -1,9 +1,29 @@
-.spon {
-    font-size: 20px;
-    color: black;
-    font-family: Lato-Regular;
+.footer {
+    background: #003366;
+    color: white;
+    .about-company {
+        i {
+            font-size: 50px;
+        }
+        a {
+            color: white;
+            transition: color .2s;
+            &:hover {
+                color: #4180CB
+            }
+        }
+    }
+    .location {
+        i {
+            font-size: 18px;
+        }
+    }
 }
 
-.footer {
-    background-color: rgba(15, 187, 173, 0.300);
+.navn {
+    position: relative;
+    color: #ffffff;
+    font-size: 40px;
+    line-height: 0.9;
+    text-align: left;
 }

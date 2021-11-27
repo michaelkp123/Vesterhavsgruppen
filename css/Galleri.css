@@ -112,27 +112,59 @@
     font-weight: 800;
 }
 
-* {
-    padding: 0;
-    margin: 0;
+.footer {
+    background: #003366;
+    color: white;
 }
 
-
-/*	general	*/
-
-section {
-    padding: 50px 0;
+.footer .about-company i {
+    font-size: 50px;
 }
 
+.footer .about-company a {
+    color: white;
+    -webkit-transition: color .2s;
+    transition: color .2s;
+}
 
-/*	gallery */
+.footer .about-company a:hover {
+    color: #4180CB;
+}
+
+.footer .location i {
+    font-size: 18px;
+}
+
+.navn {
+    position: relative;
+    color: #ffffff;
+    font-size: 40px;
+    line-height: 0.9;
+    text-align: left;
+}
+
+.nav-top {
+    background-color: #0FBBAD;
+    min-height: 20px;
+}
+
+.item:hover {
+    -webkit-filter: brightness(80%);
+    filter: brightness(80%);
+}
+
+.item {
+    -webkit-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+}
 
 .gallery-title {
     font-size: 36px;
     color: #3F6184;
     text-align: center;
     font-weight: 500;
-    margin-bottom: 70px;
+    padding-bottom: 10px;
+    padding-top: 20px;
 }
 
 .filter-button {
@@ -153,19 +185,12 @@ section {
     outline: none;
 }
 
-.gallery_product {
-    margin: 0px;
-    padding: 0;
-    position: relative;
-}
-
 .gallery_product .img-info {
     position: absolute;
     background: rgba(0, 0, 0, 0.5);
     left: 0;
     right: 0;
     bottom: 0;
-    padding: 20px;
     overflow: hidden;
     color: #fff;
     top: 0;
@@ -179,14 +204,6 @@ section {
     -webkit-transition: 2s;
     transition: 2s;
 }
-
-.nav-top {
-    background-color: #0FBBAD;
-    min-height: 20px;
-}
-
-
-/*	end gallery */
 
 
 /*# sourceMappingURL=Galleri.css.map */

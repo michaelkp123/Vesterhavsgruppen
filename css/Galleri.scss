@@ -1,27 +1,27 @@
 @import './Top.scss';
 @import './Variables.scss';
 @import "./Navbar.scss";
-* {
-    padding: 0;
-    margin: 0;
+@import './foter.scss';
+.nav-top {
+    background-color: $LightSeaGreen;
+    min-height: 20px;
 }
 
-
-/*	general	*/
-
-section {
-    padding: 50px 0;
+.item:hover {
+    filter: brightness(80%)
 }
 
-
-/*	gallery */
+.item {
+    transition: .5s ease-in-out;
+}
 
 .gallery-title {
     font-size: 36px;
     color: #3F6184;
     text-align: center;
     font-weight: 500;
-    margin-bottom: 70px;
+    padding-bottom: 10px;
+    padding-top: 20px;
 }
 
 .filter-button {
@@ -42,19 +42,12 @@ section {
     outline: none;
 }
 
-.gallery_product {
-    margin: 0px;
-    padding: 0;
-    position: relative;
-}
-
 .gallery_product .img-info {
     position: absolute;
     background: rgba(0, 0, 0, 0.5);
     left: 0;
     right: 0;
     bottom: 0;
-    padding: 20px;
     overflow: hidden;
     color: #fff;
     top: 0;
@@ -68,11 +61,3 @@ section {
     -webkit-transition: 2s;
     transition: 2s;
 }
-
-.nav-top {
-    background-color: $LightSeaGreen;
-    min-height: 20px;
-}
-
-
-/*	end gallery */

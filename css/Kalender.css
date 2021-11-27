@@ -66,6 +66,37 @@
     font-weight: 800;
 }
 
+.footer {
+    background: #003366;
+    color: white;
+}
+
+.footer .about-company i {
+    font-size: 50px;
+}
+
+.footer .about-company a {
+    color: white;
+    -webkit-transition: color .2s;
+    transition: color .2s;
+}
+
+.footer .about-company a:hover {
+    color: #4180CB;
+}
+
+.footer .location i {
+    font-size: 18px;
+}
+
+.navn {
+    position: relative;
+    color: #ffffff;
+    font-size: 40px;
+    line-height: 0.9;
+    text-align: left;
+}
+
 @media (max-width: 575px) {
     .display-4 {
         font-size: 1.5rem;

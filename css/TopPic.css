@@ -1,85 +1,80 @@
 /*---media Queries --*/
-
-
 /*--- Fonts --*/
-
 @font-face {
-    src: url(../Fonts/Lato-Regular.ttf);
-    font-family: Lato-Regular;
+  src: url(../Fonts/Lato-Regular.ttf);
+  font-family: Lato-Regular;
 }
 
 @font-face {
-    src: url(../Fonts/Lato-Bold.ttf);
-    font-family: Lato-Bold;
+  src: url(../Fonts/Lato-Bold.ttf);
+  font-family: Lato-Bold;
 }
 
 @font-face {
-    src: url(../Fonts/NunitoSans-Regular.ttf);
-    font-family: Nunito-Regular;
+  src: url(../Fonts/NunitoSans-Regular.ttf);
+  font-family: Nunito-Regular;
 }
 
 @font-face {
-    src: url(../Fonts/NunitoSans-Bold.ttf);
-    font-family: Nunito-Bold;
+  src: url(../Fonts/NunitoSans-Bold.ttf);
+  font-family: Nunito-Bold;
 }
 
 .hero {
-    position: relative;
-    height: 100vh;
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    background-image: url(../Img/Forside.png);
-    background-size: cover;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-image: url(../Img/forside.png);
+  background-size: cover;
 }
 
 .hero::before {
-    content: "";
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    background-color: rgba(0, 0, 0, 0.25);
-    opacity: 66%;
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.25);
+  opacity: 66%;
 }
 
 h1 {
-    position: relative;
-    color: #ffffff;
-    font-size: 100px;
-    line-height: 0.9;
-    text-align: center;
+  position: relative;
+  color: #ffffff;
+  font-size: 100px;
+  line-height: 0.9;
+  text-align: center;
 }
 
 h2 {
-    position: relative;
-    color: #ffffff;
-    font-size: 80px;
-    line-height: 0.9;
-    text-align: center;
+  position: relative;
+  color: #ffffff;
+  font-size: 80px;
+  line-height: 0.9;
+  text-align: center;
 }
 
 .btn {
-    position: relative;
-    color: white;
-    font-size: 20px;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+  position: relative;
+  color: white;
+  font-size: 20px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .flyt {
-    padding: 30px;
-    font-family: Lato-Regular;
+  padding: 30px;
+  font-family: Lato-Regular;
 }
-
-
 /*# sourceMappingURL=TopPic.css.map */
